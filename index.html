@@ -15,40 +15,52 @@
 <body>
     <header>
         <div class="container-fluid shadow">
-            <div class="row ">
-                <div class="col-6">
-                    <div class="icon d-flex">
-                        <i class="fa-solid fa-briefcase p-3 fs-2"></i>
-                        <div class="text p-3 fs-3 fw-bold">
-                            My Portfolio
-                        </div>
+            <nav class="nav bg-light navbar-expand-lg fixed-top z-3 px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="display-6 m-0 text-start py-3 px-4 bg-pink fw-bold" style="text-decoration: none;">
+                        <i class="fa-solid fa-envelope me-3" style="font-size: 40px;"></i>Mailler
+                    </h1>
+                </a>
+                <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1"
+                    aria-expanded="true">
+                    <i class="fa-solid fa-bars justify-content-end rounded ps-4 pe-4"
+                        style="border:1px solid #f74780; padding: 15px; color: #f74780;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="" class="nav-item nav-link active me-3 link-pink">Home</a>
+                        <a href="" class="nav-item nav-link me-3 hover">About</a>
+                        <a href="" class="nav-item nav-link me-3 hover">Services</a>
+                        <a href="" class="nav-item nav-link me-3 hover">Contact Me</a>
                     </div>
+    
                 </div>
-                <div class="col-6 ">
-                    <div class="icons mt-3 d-flex justify-content-end">
-                        <a href="" class="nav-link me-3">Home</a>
-                        <a href="" class="nav-link me-3">About</a>
-                        <a href="" class="nav-link me-3">Skill</a>
-                        <a href="" class="nav-link me-3">Project</a>
-                        <a href="" class="nav-link me-3">Contact Me</a>
-                        <input type="checkbox" class="checkbox" id="checkbox">
-                        <label for="checkbox" class="checkbox-label">
-                            <i class="fas fa-moon"></i>
-                            <i class="fas fa-sun"></i>
-                            <span class="ball"></span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </header>
 
     <secion>
-        <div class="img">
-            <img src="img/img2.webp" alt="" class="img-fluid" style="width: 100%;">
+        <div class="img position-relative">
+            <img src="img/img1.png" alt="" class="img-fluid" style="width: 100%;">
+
+
+            <div class="text position-absolute  top-50 text-white fs-2 text-center justify-content-center">
+                <h1 class="display-1 fw-bold">What is Full stack<br/> development?</h1>
+            </div>
         </div>
     </secion>
+
+    <section>
+        <div class="container-fluid mt-5">
+            <div class="about text-center fs-1 fw-bolder text-danger-emphasis">
+                About Me
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/img2.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script>
